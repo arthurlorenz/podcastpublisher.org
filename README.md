@@ -2,8 +2,6 @@
 
 Documentation for [Podcast Publiser](https://www.drupal.org/project/podcast_publisher).
 
-```
-
 ## Setup
 
 Install dependencies:
