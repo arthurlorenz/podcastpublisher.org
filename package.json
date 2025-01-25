@@ -5,11 +5,17 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "generate": "nuxi build",
-    "preview": "nuxi preview"
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "nuxt": "npm:nuxt3@latest",
-    "@nuxt-themes/docus": "0.3.1"
-  }
+    "@nuxt-themes/docus": "latest",
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/eslint-config": "^0.6.1",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.14.0",
+    "nuxt": "^3.14.159"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
