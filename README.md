@@ -1,8 +1,6 @@
 # podcastpublisher.org
 
-Documentation for [Podcast Publiser](https://www.drupal.org/project/podcast_publisher).
-
-```
+Documentation for [Podcast Publisher](https://www.drupal.org/project/podcast_publisher).
 
 ## Setup
 
