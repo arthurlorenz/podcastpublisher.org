@@ -1,21 +1,21 @@
 {
-  "name": "docus-starter",
+  "name": "podcastpublisher.org",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview",
-    "lint": "eslint ."
+    "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "latest",
-    "@nuxt/devtools": "^1.6.0",
-    "@nuxt/eslint-config": "^0.6.1",
-    "@types/node": "^22.9.0",
-    "eslint": "^9.14.0",
-    "nuxt": "^3.14.159"
+    "docus": "^5.13.0",
+    "nuxt": "^4.5.2"
+  },
+  "dependencies": {
+    "@fontsource/source-sans-3": "^5.3.0",
+    "better-sqlite3": "^12.11.1"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
