@@ -1,3 +1,5 @@
+<img src="public/podcast-publisher-mark.svg" alt="Podcast Publisher logo" width="80" height="97">
+
 # Podcast Publisher documentation
 
 This is the Docus 5 site for the [Podcast Publisher](https://www.drupal.org/project/podcast_publisher) Drupal module.

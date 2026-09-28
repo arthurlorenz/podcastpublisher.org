@@ -11,6 +11,28 @@
   --brand-ink: #102a43;
   --brand-paper: #f7f9fc;
   --brand-pale: #eaf6fc;
+  --brand-muted: #486175;
+  --brand-body: #36546c;
+  --brand-border: #ccdbe5;
+  --brand-button: #0077aa;
+  --brand-button-hover: #005f88;
+  --brand-button-text: #ffffff;
+}
+
+:root.dark {
+  --ui-primary: #55c4ee;
+  --ui-bg: #0b1826;
+  --ui-text: #e6eef5;
+  --brand-link: #55c4ee;
+  --brand-ink: #e6eef5;
+  --brand-paper: #0b1826;
+  --brand-pale: #102a3d;
+  --brand-muted: #b0c4d4;
+  --brand-body: #c3d5e2;
+  --brand-border: #30495d;
+  --brand-button: #55c4ee;
+  --brand-button-hover: #8cdcff;
+  --brand-button-text: #0b1826;
 }
 
 body {

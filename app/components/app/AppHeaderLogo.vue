@@ -11,7 +11,7 @@
   align-items: center;
   gap: 0.6rem;
   white-space: nowrap;
-  color: #102a43;
+  color: var(--brand-ink);
   font-family: 'Source Sans 3', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;

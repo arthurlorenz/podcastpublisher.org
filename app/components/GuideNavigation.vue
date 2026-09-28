@@ -34,7 +34,7 @@ const groups = [
 .guide-navigation section + section { margin-top: 1.8rem; }
 .guide-navigation h2 { margin: 0 0 .55rem; padding-left: .8rem; color: var(--brand-ink); font-size: .9rem; font-weight: 700; }
 .guide-navigation ul { list-style: none; padding: 0; margin: 0; }
-.guide-navigation a { display: block; padding: .45rem .8rem; border-radius: .35rem; color: #486175; font-size: .95rem; line-height: 1.45; }
+.guide-navigation a { display: block; padding: .45rem .8rem; border-radius: .35rem; color: var(--brand-muted); font-size: .95rem; line-height: 1.45; }
 .guide-navigation a:hover { background: var(--brand-pale); color: var(--brand-link); }
 .guide-navigation a[aria-current="page"] { background: var(--brand-pale); color: var(--brand-link); font-weight: 600; }
 </style>

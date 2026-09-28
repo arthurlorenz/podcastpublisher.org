@@ -1,7 +1,6 @@
 export default defineAppConfig({
   docus: {
-    locale: 'en',
-    colorMode: 'light'
+    locale: 'en'
   },
   seo: {
     title: 'Podcast Publisher',
