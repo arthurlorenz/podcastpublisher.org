@@ -1,0 +1,85 @@
+@import '@fontsource/source-sans-3/400.css';
+@import '@fontsource/source-sans-3/600.css';
+@import '@fontsource/source-sans-3/700.css';
+
+:root {
+  --ui-primary: #0077aa;
+  --ui-bg: #f7f9fc;
+  --ui-text: #102a43;
+  --brand-blue: #009cde;
+  --brand-link: #0077aa;
+  --brand-ink: #102a43;
+  --brand-paper: #f7f9fc;
+  --brand-pale: #eaf6fc;
+}
+
+body {
+  background: var(--brand-paper);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', sans-serif;
+  letter-spacing: -0.015em;
+}
+
+code, pre, kbd, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--brand-blue);
+  outline-offset: 3px;
+}
+
+.block-hero .announce {
+  color: var(--brand-link);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.block-hero .title {
+  color: var(--brand-ink);
+}
+
+.block-hero .description {
+  max-width: 58ch;
+}
+
+.card-grid .card {
+  border-color: #c5e6f3;
+  background: #fff;
+}
+
+.card-grid .card .icon {
+  color: var(--brand-link);
+}
+
+.prose img {
+  border: 1px solid #d9e5ed;
+  border-radius: 0.65rem;
+}
+
+.prose table {
+  font-size: 0.98em;
+}
+
+.dark .block-hero .title {
+  color: #f7f9fc;
+}
+
+.dark .card-grid .card {
+  border-color: #36546c;
+  background: #19364e;
+}
+
+.dark .card-grid .card .icon {
+  color: #55c4ee;
+}
+
+.dark .prose img {
+  border-color: #36546c;
+}

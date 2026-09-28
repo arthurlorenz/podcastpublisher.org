@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640"><rect width="1280" height="640" fill="#EAF6FC"/><svg x="850" y="140" width="270" height="330" viewBox="120 35 1010 1225"><title id="title">Podcast Publisher</title>
+  <defs>
+    <mask id="mic">
+      <rect x="120" y="35" width="1010" height="1225" fill="white"/>
+      <rect x="502" y="462" width="250" height="441" rx="125" fill="black"/>
+      <path d="M426 739v49c0 111 90 201 201 201s201-90 201-201v-49" fill="none" stroke="black" stroke-width="63" stroke-linecap="round"/>
+      <path d="M627 989v104m-82 0h164" fill="none" stroke="black" stroke-width="63" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <path d="M687 76c12-5 14 1 9 16-34 105 5 159 88 239 164 158 310 304 310 455 0 240-209 436-467 436S160 1026 160 786c0-193 151-351 332-532C578 165 632 106 687 76Z" fill="#009CDE" mask="url(#mic)"/>
+</svg><text x="100" y="145" font-family="sans-serif" font-size="28" fill="#0077AA">PODCAST PUBLISHER</text><g font-family="sans-serif" font-size="76" font-weight="700" fill="#102A43"><text x="100" y="300">Your podcast.</text><text x="100" y="390">Your data.</text></g><text x="100" y="490" font-family="sans-serif" font-size="28" fill="#36546C">Self-hosted. Open. Yours.</text></svg>

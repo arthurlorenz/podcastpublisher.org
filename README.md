@@ -1,49 +1,27 @@
-# podcastpublisher.org
+# Podcast Publisher documentation
 
-Documentation for [Podcast Publisher](https://www.drupal.org/project/podcast_publisher).
+This is the Docus 5 site for the [Podcast Publisher](https://www.drupal.org/project/podcast_publisher) Drupal module.
 
-## Setup
+## Local development
 
-Install dependencies:
+The project uses the Node version in `.nvmrc` and Yarn 1.
 
 ```bash
 yarn install
-```
-
-## Development
-
-```bash
 yarn dev
 ```
 
-## Edge Side Rendering
+Open the local address printed by Nuxt. Content lives in `content/`; images used in the guides live in `public/images/`.
 
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
+## Verify a release build
 
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
+Build the server bundle and generate the static site before publishing:
 
 ```bash
 yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
 yarn generate
 ```
 
-## Preview build
+Generated files are written to `.output/`, which is ignored by Git. Use `yarn preview` to inspect a generated build locally.
 
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+The Drupal screenshots in this checkout were captured from a disposable local DDEV site with generic sample content. They are documentation assets only; publishing the docs does not deploy or change a Drupal site.
