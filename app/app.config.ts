@@ -6,7 +6,7 @@ export default defineAppConfig({
   seo: {
     title: 'Podcast Publisher',
     titleTemplate: '%s · Podcast Publisher',
-    description: 'Create podcasts, publish episodes, and generate RSS feeds from Drupal.'
+    description: 'Own your podcast and your data. Self-host with Drupal and share your show through open RSS.'
   },
   header: {
     title: 'Podcast Publisher',

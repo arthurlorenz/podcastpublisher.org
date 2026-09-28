@@ -1,14 +1,14 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Podcast Publisher',
-  titleTemplate: '%s · Podcast publishing for Drupal',
-  description: 'Create podcasts, publish episodes, and share an RSS feed from your Drupal site.',
+  titleTemplate: '%s · Self-hosted podcast publishing',
+  description: 'Own your podcast and your data. Self-host with Drupal and distribute episodes through an open RSS feed on your own domain.',
   ogImage: '/preview.png'
 })
 const paths = [
-  { number: '01', title: 'Set up your site', description: 'Install the module, give editors access, and create your first podcast.', to: '/get-started', label: 'Start with installation' },
+  { number: '01', title: 'Set up your site', description: 'Create a home for your podcast on your own domain, with hosting you control.', to: '/get-started', label: 'Start with installation' },
   { number: '02', title: 'Publish an episode', description: 'Add the recording, write shownotes, and give your episode a home.', to: '/get-started/add-episode', label: 'Follow the publishing guide' },
-  { number: '03', title: 'Share your feed', description: 'Check your RSS feed and share it with listeners and podcast directories.', to: '/get-started/feed', label: 'Find your feed URL' }
+  { number: '03', title: 'Share your feed', description: 'Let listeners subscribe through RSS, and submit your feed to the directories you choose.', to: '/get-started/feed', label: 'Find your feed URL' }
 ]
 </script>
 
@@ -17,9 +17,9 @@ const paths = [
     <section class="home-hero">
       <div class="home-hero-inner">
         <div class="hero-copy">
-          <p class="home-eyebrow">Podcast publishing for Drupal</p>
-          <h1>Your podcast.<br>Your Drupal site.</h1>
-          <p class="hero-description">Create a show, publish episodes, and share your feed. Keep your podcast in the Drupal site you already know.</p>
+          <p class="home-eyebrow">Self-hosted. Open. Yours.</p>
+          <h1>Your podcast.<br>Your data.</h1>
+          <p class="hero-description">Keep your audio, your feed, and your publishing data under your control. Podcast Publisher turns your Drupal site into a self-hosted home for your show.</p>
           <div class="hero-actions">
             <NuxtLink class="home-button" to="/get-started">Start publishing <span aria-hidden="true">→</span></NuxtLink>
             <a class="home-text-link" href="https://www.drupal.org/project/podcast_publisher">View the Drupal project <span aria-hidden="true">↗</span></a>
@@ -32,8 +32,8 @@ const paths = [
     <section class="home-guides" aria-labelledby="guide-heading">
       <div class="guide-intro">
         <p class="home-eyebrow">From setup to your next episode</p>
-        <h2 id="guide-heading">A guide for every step.</h2>
-        <p>For the people building the site and the editors bringing the show to life.</p>
+        <h2 id="guide-heading">Publish on your own terms.</h2>
+        <p>Your site is the source. An open RSS feed connects it to podcast apps and directories, giving your show a place in a decentralized podcast ecosystem.</p>
       </div>
       <div class="home-paths">
         <NuxtLink v-for="path in paths" :key="path.number" :to="path.to" class="home-path">
@@ -44,7 +44,7 @@ const paths = [
         </NuxtLink>
       </div>
       <div class="analytics-strip">
-        <div><h2>Curious about downloads?</h2><p>Set up the optional analytics module and learn what its counts tell you.</p></div>
+        <div><h2>Your analytics, on your site.</h2><p>The optional analytics module stores download intent data in your Drupal database. Learn how to set it up and what it measures.</p></div>
         <NuxtLink class="home-text-link" to="/analytics">Explore analytics <span aria-hidden="true">→</span></NuxtLink>
       </div>
     </section>
