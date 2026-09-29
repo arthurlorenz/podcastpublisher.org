@@ -27,3 +27,9 @@ yarn generate
 Generated files are written to `.output/`, which is ignored by Git. Use `yarn preview` to inspect a generated build locally.
 
 The Drupal screenshots in this checkout were captured from a disposable local DDEV site with generic sample content. They are documentation assets only; publishing the docs does not deploy or change a Drupal site.
+
+## Website analytics
+
+The [`@nuxtjs/plausible`](https://nuxt.com/modules/plausible) module is configured in `nuxt.config.ts` for the site `podcastpublisher.org`, using the self-hosted instance at `https://analytics.utor.io`. The module tracks initial pageviews and client-side navigation and sends events to that instance's `/api/event` endpoint. The site must be registered in that Plausible instance for reporting.
+
+Localhost and loopback previews are excluded through `ignoredHostnames`. This website tracking is separate from the Drupal module's optional podcast download analytics.

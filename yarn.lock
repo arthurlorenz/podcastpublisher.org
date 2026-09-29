@@ -1928,6 +1928,16 @@
     unwasm "^0.5.3"
     vfile "^6.0.3"
 
+"@nuxtjs/plausible@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/plausible/-/plausible-4.0.0.tgz#429188ef8eb2f6ee16e398f584b5c387c7762f90"
+  integrity sha512-R2G9BktBVSCG0nDNBSVlC8jDbsYBgrbqmn8wWisiIF9lKfRq99NwIvtw/DLuwexJT5pCYPvBflIof4NS4ZX8Xg==
+  dependencies:
+    "@nuxt/kit" "^4.5.2"
+    "@plausible-analytics/tracker" "^0.4.5"
+    defu "^6.1.7"
+    ufo "^1.6.4"
+
 "@nuxtjs/robots@^6.2.0":
   version "6.2.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-6.2.3.tgz#0f325c3922b74b263365cf85151b0ed7676db3a2"
@@ -2384,6 +2394,11 @@
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
+
+"@plausible-analytics/tracker@^0.4.5":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@plausible-analytics/tracker/-/tracker-0.4.6.tgz#e77a2043fb8dee65508b568de7d6e7cfbcddd7d2"
+  integrity sha512-nbu6xGgSP6jeYuoVklZBzucUnIpo75tVu3Kr+R0EDycVKaMC/jF5Q/YCaM/8gR4fPZ1IDcXt6FdBJFZ1uZwEPA==
 
 "@polka/url@^1.0.0-next.24":
   version "1.0.0-next.29"
@@ -9232,6 +9247,7 @@ streamx@^2.12.5, streamx@^2.15.0, streamx@^2.25.0:
     text-decoder "^1.1.0"
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -9289,6 +9305,7 @@ stringify-entities@^4.0.0, stringify-entities@^4.0.4:
     character-entities-legacy "^3.0.0"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==

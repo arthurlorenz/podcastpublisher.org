@@ -1,5 +1,11 @@
 export default defineNuxtConfig({
   extends: ['docus'],
+  modules: ['@nuxtjs/plausible'],
+  plausible: {
+    domain: 'podcastpublisher.org',
+    apiHost: 'https://analytics.utor.io',
+    ignoredHostnames: ['localhost', '127.0.0.1', '[::1]']
+  },
   nitro: {
     prerender: { failOnError: true }
   },
