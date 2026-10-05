@@ -24,7 +24,7 @@ const paths = [
             <NuxtLink class="home-button" to="/get-started">Start publishing <span aria-hidden="true">→</span></NuxtLink>
             <a class="home-text-link" href="https://www.drupal.org/project/podcast_publisher">View the Drupal project <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="install-command"><span aria-hidden="true">$</span><code>composer require drupal/podcast_publisher</code></div>
+          <div class="install-command"><span aria-hidden="true">$</span><code>composer require 'drupal/podcast_publisher:^1.0@alpha'</code></div>
         </div>
         <div class="hero-mark" aria-hidden="true"><img src="/podcast-publisher-mark.svg" width="300" height="360" alt=""></div>
       </div>

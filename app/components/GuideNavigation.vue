@@ -6,14 +6,19 @@ const groups = [
     ['Create a podcast', '/get-started/create-podcast'],
     ['Add an episode', '/get-started/add-episode'],
     ['Make an episode page', '/get-started/episode-page'],
-    ['Check and share the feed', '/get-started/feed']
+    ['Check and share the feed', '/get-started/feed'],
+    ['Submit to directories', '/get-started/directories']
   ] },
   { title: 'Site building', links: [
     ['Overview', '/site-building'],
     ['Permissions', '/site-building/permissions'],
+    ['Customize the feed', '/site-building/feed'],
+    ['Fields and display', '/site-building/fields-and-display'],
+    ['Update and uninstall', '/site-building/updates'],
     ['Troubleshooting', '/site-building/troubleshooting']
   ] },
-  { title: 'Analytics', links: [['Setup and reports', '/analytics']] }
+  { title: 'Analytics', links: [['Setup and reports', '/analytics']] },
+  { title: 'Contribute', links: [['Issues, roadmap, and tests', '/contribute']] }
 ]
 </script>
 
