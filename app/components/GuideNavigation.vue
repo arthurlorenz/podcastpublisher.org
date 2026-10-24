@@ -13,6 +13,7 @@ const groups = [
     ['Overview', '/site-building'],
     ['Permissions', '/site-building/permissions'],
     ['Customize the feed', '/site-building/feed'],
+    ['Notify apps of new episodes', '/site-building/notifications'],
     ['Fields and display', '/site-building/fields-and-display'],
     ['Update and uninstall', '/site-building/updates'],
     ['Troubleshooting', '/site-building/troubleshooting']
