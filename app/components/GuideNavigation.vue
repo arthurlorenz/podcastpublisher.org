@@ -20,6 +20,7 @@ const groups = [
     ['Search engines', '/site-building/seo'],
     ['AI agents and MCP', '/site-building/ai-agents'],
     ['Fields and display', '/site-building/fields-and-display'],
+    ['Add an episode player', '/site-building/player'],
     ['Update and uninstall', '/site-building/updates'],
     ['Troubleshooting', '/site-building/troubleshooting']
   ] },
